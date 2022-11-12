@@ -45,16 +45,11 @@ fetch(
     xScale.range([0, w]);
 
     const yAxis = d3.axisLeft(yScale);
-    svg
-      .append("g")
-      .attr("id", "hello")
-      .attr("transform", `translate(${padding}, 0)`)
-      .call(yAxis);
+    svg.append("g").attr("transform", `translate(${padding}, 0)`).call(yAxis);
 
     const xAxis = d3.axisBottom(xScale);
     svg
       .append("g")
-      .attr("id", "hello")
       .attr("transform", `translate(${padding}, ${h})`)
       .call(xAxis);
 

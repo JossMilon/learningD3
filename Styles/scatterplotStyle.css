@@ -1,0 +1,9 @@
+.tooltip {
+  background-color: lightskyblue;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.stats {
+  cursor: pointer;
+}
